@@ -114,19 +114,6 @@ Saran pembagian (boleh ditukar sesuai kesepakatan kelompok):
 | I Dewa Gede Agung Oka | DAO, controller, uji konsol, perakitan | `dao`, `controller`, `AppContext`, `ConsoleDemo` |
 | Lionel Jeremy | Seluruh tampilan GUI | `view`, `Main` |
 
-Langkah singkat (dilakukan **masing-masing anggota dari akunnya sendiri**):
-
-```
-git init                                  # satu orang saja, lalu push ke GitHub
-git remote add origin <url-repo-kelompok>
-git config user.name  "Nama Kamu"
-git config user.email "email@kamu.com"
-git add src/rental/model src/rental/exception src/rental/util   # contoh bagian Finodi
-git commit -m "Tambah model kendaraan dan hierarki pewarisan"
-git push origin main
-```
-
-Disarankan commit bertahap dengan pesan yang jelas (bukan satu commit besar) agar riwayat terlihat saat presentasi.
 
 ## 9. Pertanyaan umum
 
